@@ -1,0 +1,107 @@
+body {
+    background-color: #F2F2F2;
+}
+
+h6 {
+    color: #4B6141;
+}
+h1{
+    color: #41732A;
+}
+.logo{
+    cursor: pointer;
+}
+.navbar-top {
+    background-color: #F2F2F2;
+
+}
+
+
+
+.navbar-top a {
+    color: #41732A;
+}
+
+.navbar-top button {
+    color: #41732A;
+    border: 1px solid #41732A;
+}
+
+.home {
+    /*color: white;*/
+}
+
+.card-border{
+    border: solid 10px white;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: all ease-out 0.2s;
+}
+
+.card-border:hover{
+    transform: scale(1.05);
+}
+
+
+svg{
+    width: auto;
+    height: auto;
+    
+}
+svg:hover{
+    fill: #41732A;
+}
+
+#picture {
+    animation: fadeIn 3s ease;
+    cursor: pointer;
+    max-width: 50%;
+}
+
+@media screen and (max-width: 768px) {
+    #picture{
+        max-width: 100%;
+    }
+}
+
+
+@keyframes  fadeIn {
+    0%{
+        opacity: 0;
+        filter: blur(20px);
+    }
+    10%{
+        opacity: 1;
+        filter: brightness(2) blur(10px);
+    }
+}
+
+.border-picture{
+    border-radius: 5%;
+}
+.btn.btn-secondary.green {
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px 1px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border: 1px solid #41732A;
+    color: #41732A;
+    border-radius: 10px 100px / 120px;
+    background-color: #F2F2F2;
+}
+
+.btn.btn-secondary.green:hover {
+    background-color: #588d3f;
+    color: #F2F2F2;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+.social-media i{
+    color: #41732A;
+}
